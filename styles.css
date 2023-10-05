@@ -2,6 +2,7 @@
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 0;
 }
 
 body {
@@ -30,4 +31,23 @@ li{
 
 .header > * {
     display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.logo > img{ 
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
 }
